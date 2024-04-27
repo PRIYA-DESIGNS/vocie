@@ -1,0 +1,68 @@
+Container(
+                         margin: EdgeInsets.only(top: 67,left: 21),
+                         width: 147,
+                         height: 147,
+                         decoration:BoxDecoration(
+                             borderRadius: BorderRadius.circular(50),
+                             color: Colors.white),
+                       ),
+
+
+
+Container(
+                   margin: EdgeInsets.only(top: 67,left: 196),
+                   width: 147,
+                   height: 147,
+                   decoration:BoxDecoration(
+                       borderRadius: BorderRadius.circular(50),
+                       color: Colors.white)
+               ),
+               Container(
+                 margin: EdgeInsets.only(top: 169,left: 244),
+                 child: Text(
+                     "IMPORT",
+                     style: TextStyle(
+                       fontSize: 13,
+                     )
+                 ),
+               ),
+               Positioned(
+                 top: 89,
+                 left: 226,
+                 child: Container(
+                   child: Image.asset('assets/images/second screen/Download.png'),
+                 ),),// import
+               Container(
+                   margin: EdgeInsets.only(top: 256,left: 21),
+                   width: 147,
+                   height: 147,
+                   decoration:BoxDecoration(
+                       borderRadius: BorderRadius.circular(50),
+                       color: Colors.white)
+               ),
+               Container(
+                 margin: EdgeInsets.only(top: 364,left: 79),
+                 child: Text(
+                     "TEXT",
+                     style: TextStyle(
+                       fontSize: 13,
+                     )
+                 ),
+               ),
+               Container(
+                   margin: EdgeInsets.only(top: 256,left: 196),
+                   width: 147,
+                   height: 147,
+                   decoration:BoxDecoration(
+                       borderRadius: BorderRadius.circular(50),
+                       color: Colors.white)
+               ),
+               Container(
+                 margin: EdgeInsets.only(top: 364,left: 246),
+                 child: Text(
+                     "VOICE",
+                     style: TextStyle(
+                         fontSize: 12
+                     )
+                 ),
+               ),
